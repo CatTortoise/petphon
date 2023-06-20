@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.css" rel="stylesheet" />
+    <script src="jquery-1.8.0.js"></script>
+    <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
+   
+    <script src="JSpet.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script>
+        $(document).on("pageshow", "#mainPage", function () { main(); });
+    </script>
+
+</head>
+<body >
+        <div data-role="page" id="mainPage">
+            <div data-role="header" id="header" >
+                <table id="tab">
+                    <tr>
+                        <th><div id="Mode"></div></th>
+                        <th><div class="Text" id="petName"></div><div class="Text" id="Age"></div></th>
+                        <th><img src="Aset/png/chat-1.png" id="take" /></th>
+                    </tr>
+                </table>
+
+            </div><!--header-->
+    <div id="Pet"></div>
+    <div id="Simbel"></div>
+            <!--content-->             
+            <div data-role="footer"  class="ui-bar"  data-inline="true" id="footer"><!--id="Foter"-->
+                <div class="ui-grid-c">
+                    <div class="ui-block-a" data-inline="true">
+                        <img src="Aset/png/soccer-ball-variant.png" id="Play"/>
+                    </div>
+                    <div class="ui-block-b" data-inline="true">
+                        <img src="Aset/png/food-1.png" id="Fide"/>
+                    </div>
+                    <div class="ui-block-c" data-inline="true">
+                        <img src="Aset/png/witch.png" id="Clean"/>
+                    </div>
+                    <div class="ui-block-d" data-inline="true">
+                        <img src="Aset/png/medicine.png" id="Heal"/>
+                    </div>
+             </div>
+</div><!--footer-->
+        </div><!--page-->
+    <!--</div>-->
+    
+</body>
+</html>

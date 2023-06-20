@@ -1,0 +1,76 @@
+﻿body {
+       font-family:Lucida Handwriting;
+}
+
+#MainScrin{
+    position:static;
+    left:0%;
+    top:20%;
+}
+
+#Pet{
+    position:absolute;
+    bottom: 30%;
+    margin-left:25%;
+    width:50%;
+  
+}
+
+#Simbel{
+    position:fixed;
+    bottom: 30%;
+    margin-left:5%;
+    width:30%;
+}
+
+.ui-content{
+    padding-top:30%;
+
+    
+}
+
+#footer{
+ 
+    position: absolute; 
+    right: 0;
+    bottom: 0%;
+    left: 0;
+}
+
+#tab{
+    width:100%;
+}
+.Botens{
+    width: 100%;
+    align-content:center;
+}
+
+.Text{
+   font-family:Lucida Handwriting;
+   
+}
+#B-text{
+    text-align:center;
+}
+
+
+#Bars{
+    
+    font-size:300%;
+    
+}
+ #Mode{
+    position:static;
+    margin-left:15%;
+    margin-top:5%;
+    width:80%;  
+ }
+
+#take{
+    position: static;
+    float:right;
+    margin-right:15%;
+    margin-top:5%;
+    width:80%;
+}
+
